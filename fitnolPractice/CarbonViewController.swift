@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CarbonKit
 
 class CarbonViewController: UIViewController {
 
@@ -14,17 +15,35 @@ class CarbonViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let items = ["Courses", "Market Place", "About"]
+        let carbonTabSwipeNavigation = CarbonTabSwipeNavigation(items: items, delegate: self)
+        carbonTabSwipeNavigation.insert(intoRootViewController: self)
+
     }
     
 
-    /*
-    // MARK: - Navigation
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension CarbonViewController : CarbonTabSwipeNavigationDelegate {
+    
+    
+    func carbonTabSwipeNavigation(_ carbonTabSwipeNavigation: CarbonTabSwipeNavigation, viewControllerAt index: UInt) -> UIViewController {
+        
+        let vc = UIViewController()
+        switch index {
+        case 0:
+            vc.view.backgroundColor = .red
+        case 1:
+            vc.view.backgroundColor = .yellow
+        case 2:
+            vc.view.backgroundColor = .green
+        default:
+            vc.view.backgroundColor = .red
+        }
+        
+        return vc
     }
-    */
-
+    
+     
+    
 }

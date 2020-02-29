@@ -1,0 +1,28 @@
+PODS:
+  - AutoInsetter (1.8.0)
+  - CarbonKit (2.3.1)
+  - Pageboy (3.5.0)
+  - Tabman (2.6.3):
+    - AutoInsetter (~> 1.8.0)
+    - Pageboy (~> 3.5.0)
+
+DEPENDENCIES:
+  - CarbonKit
+  - Tabman
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AutoInsetter
+    - CarbonKit
+    - Pageboy
+    - Tabman
+
+SPEC CHECKSUMS:
+  AutoInsetter: 0b90ca74e36561c340129045a3722c51a0b15c58
+  CarbonKit: b60e24dbdb47179990d5e074efa87ab819c8de98
+  Pageboy: 3794c578aae5fcce06e90b3ed4a0ad6b807d75bb
+  Tabman: 63eae331ae7a9388ae389b1808f1939269fcdece
+
+PODFILE CHECKSUM: 681ac4e69fd3653f566b2ad34869cd9f2ee6c663
+
+COCOAPODS: 1.7.5

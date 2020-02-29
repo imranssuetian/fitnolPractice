@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-fitnolPractice/Pods-fitnolPractice-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AutoInsetter/AutoInsetter.framework
+${BUILT_PRODUCTS_DIR}/CarbonKit/CarbonKit.framework
+${BUILT_PRODUCTS_DIR}/Pageboy/Pageboy.framework
+${BUILT_PRODUCTS_DIR}/Tabman/Tabman.framework

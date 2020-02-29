@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		164294B441A628E745DCE839 /* Pods_fitnolPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E40AC9FFC3D834829BF5B3 /* Pods_fitnolPractice.framework */; };
 		23218BA3240A615300C40135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23218BA2240A615300C40135 /* AppDelegate.swift */; };
 		23218BA5240A615300C40135 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23218BA4240A615300C40135 /* SceneDelegate.swift */; };
 		23218BA7240A615300C40135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23218BA6240A615300C40135 /* ViewController.swift */; };
@@ -14,9 +15,16 @@
 		23218BAD240A615300C40135 /* fitnolPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23218BAB240A615300C40135 /* fitnolPractice.xcdatamodeld */; };
 		23218BAF240A615600C40135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23218BAE240A615600C40135 /* Assets.xcassets */; };
 		23218BB2240A615600C40135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23218BB0240A615600C40135 /* LaunchScreen.storyboard */; };
+		23218BBC240A710D00C40135 /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23218BBA240A710D00C40135 /* CommentsTableViewCell.swift */; };
+		23218BBD240A710D00C40135 /* CommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23218BBB240A710D00C40135 /* CommentsTableViewCell.xib */; };
+		23218BC0240A7D6800C40135 /* SecondCommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23218BBE240A7D6800C40135 /* SecondCommentsTableViewCell.swift */; };
+		23218BC1240A7D6800C40135 /* SecondCommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23218BBF240A7D6800C40135 /* SecondCommentsTableViewCell.xib */; };
+		23218BC3240ABFC700C40135 /* CarbonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23218BC2240ABFC600C40135 /* CarbonViewController.swift */; };
+		23218BC5240AC2D400C40135 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23218BC4240AC2D400C40135 /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2139A313ADDFB31B55E24004 /* Pods-fitnolPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fitnolPractice.release.xcconfig"; path = "Target Support Files/Pods-fitnolPractice/Pods-fitnolPractice.release.xcconfig"; sourceTree = "<group>"; };
 		23218B9F240A615300C40135 /* fitnolPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitnolPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23218BA2240A615300C40135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23218BA4240A615300C40135 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,14 @@
 		23218BAE240A615600C40135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23218BB1240A615600C40135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23218BB3240A615600C40135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23218BBA240A710D00C40135 /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		23218BBB240A710D00C40135 /* CommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsTableViewCell.xib; sourceTree = "<group>"; };
+		23218BBE240A7D6800C40135 /* SecondCommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCommentsTableViewCell.swift; sourceTree = "<group>"; };
+		23218BBF240A7D6800C40135 /* SecondCommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondCommentsTableViewCell.xib; sourceTree = "<group>"; };
+		23218BC2240ABFC600C40135 /* CarbonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonViewController.swift; sourceTree = "<group>"; };
+		23218BC4240AC2D400C40135 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		98E40AC9FFC3D834829BF5B3 /* Pods_fitnolPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fitnolPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4452733ADBC32AB4FFB270 /* Pods-fitnolPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fitnolPractice.debug.xcconfig"; path = "Target Support Files/Pods-fitnolPractice/Pods-fitnolPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164294B441A628E745DCE839 /* Pods_fitnolPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,8 @@
 			children = (
 				23218BA1240A615300C40135 /* fitnolPractice */,
 				23218BA0240A615300C40135 /* Products */,
+				3D2784755F95F0BE0C72BC89 /* Pods */,
+				EF1DA30BC7461C827E51D53F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +77,47 @@
 		23218BA1240A615300C40135 /* fitnolPractice */ = {
 			isa = PBXGroup;
 			children = (
-				23218BA2240A615300C40135 /* AppDelegate.swift */,
-				23218BA4240A615300C40135 /* SceneDelegate.swift */,
-				23218BA6240A615300C40135 /* ViewController.swift */,
-				23218BA8240A615300C40135 /* Main.storyboard */,
-				23218BAE240A615600C40135 /* Assets.xcassets */,
-				23218BB0240A615600C40135 /* LaunchScreen.storyboard */,
 				23218BB3240A615600C40135 /* Info.plist */,
+				23218BA2240A615300C40135 /* AppDelegate.swift */,
+				23218BC2240ABFC600C40135 /* CarbonViewController.swift */,
+				23218BA4240A615300C40135 /* SceneDelegate.swift */,
+				23218BC4240AC2D400C40135 /* TabViewController.swift */,
+				23218BA6240A615300C40135 /* ViewController.swift */,
+				23218BAE240A615600C40135 /* Assets.xcassets */,
+				23218BB9240A70F700C40135 /* Comments */,
 				23218BAB240A615300C40135 /* fitnolPractice.xcdatamodeld */,
+				23218BB0240A615600C40135 /* LaunchScreen.storyboard */,
+				23218BA8240A615300C40135 /* Main.storyboard */,
 			);
 			path = fitnolPractice;
+			sourceTree = "<group>";
+		};
+		23218BB9240A70F700C40135 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				23218BBA240A710D00C40135 /* CommentsTableViewCell.swift */,
+				23218BBB240A710D00C40135 /* CommentsTableViewCell.xib */,
+				23218BBE240A7D6800C40135 /* SecondCommentsTableViewCell.swift */,
+				23218BBF240A7D6800C40135 /* SecondCommentsTableViewCell.xib */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		3D2784755F95F0BE0C72BC89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA4452733ADBC32AB4FFB270 /* Pods-fitnolPractice.debug.xcconfig */,
+				2139A313ADDFB31B55E24004 /* Pods-fitnolPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF1DA30BC7461C827E51D53F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98E40AC9FFC3D834829BF5B3 /* Pods_fitnolPractice.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23218BB6240A615600C40135 /* Build configuration list for PBXNativeTarget "fitnolPractice" */;
 			buildPhases = (
+				649E94F3038A0A3D4246F3A1 /* [CP] Check Pods Manifest.lock */,
 				23218B9B240A615300C40135 /* Sources */,
 				23218B9C240A615300C40135 /* Frameworks */,
 				23218B9D240A615300C40135 /* Resources */,
+				3B52BE4EE2C7C41562A18EA7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,20 +183,68 @@
 				23218BB2240A615600C40135 /* LaunchScreen.storyboard in Resources */,
 				23218BAF240A615600C40135 /* Assets.xcassets in Resources */,
 				23218BAA240A615300C40135 /* Main.storyboard in Resources */,
+				23218BBD240A710D00C40135 /* CommentsTableViewCell.xib in Resources */,
+				23218BC1240A7D6800C40135 /* SecondCommentsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B52BE4EE2C7C41562A18EA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fitnolPractice/Pods-fitnolPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fitnolPractice/Pods-fitnolPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fitnolPractice/Pods-fitnolPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		649E94F3038A0A3D4246F3A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fitnolPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		23218B9B240A615300C40135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23218BC5240AC2D400C40135 /* TabViewController.swift in Sources */,
+				23218BC3240ABFC700C40135 /* CarbonViewController.swift in Sources */,
 				23218BA7240A615300C40135 /* ViewController.swift in Sources */,
 				23218BA3240A615300C40135 /* AppDelegate.swift in Sources */,
+				23218BBC240A710D00C40135 /* CommentsTableViewCell.swift in Sources */,
 				23218BAD240A615300C40135 /* fitnolPractice.xcdatamodeld in Sources */,
 				23218BA5240A615300C40135 /* SceneDelegate.swift in Sources */,
+				23218BC0240A7D6800C40135 /* SecondCommentsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +386,7 @@
 		};
 		23218BB7240A615600C40135 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA4452733ADBC32AB4FFB270 /* Pods-fitnolPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +405,7 @@
 		};
 		23218BB8240A615600C40135 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2139A313ADDFB31B55E24004 /* Pods-fitnolPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
